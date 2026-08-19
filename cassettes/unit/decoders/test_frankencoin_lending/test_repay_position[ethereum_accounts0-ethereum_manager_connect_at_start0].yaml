@@ -1,0 +1,681 @@
+interactions:
+- request:
+    body: '{"jsonrpc": "2.0", "method": "web3_clientVersion", "params": [], "id":
+      0}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '73'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":0,"result":"Geth/v1.17.5-stable-9621c6ad/linux-arm64/go1.26.5"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '85'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 19 Aug 2026 18:43:21 GMT
+      Vary:
+      - Origin
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T16:20:26Z)
+      X-Info-Node:
+      - (ee85b308-5908-4955-a90e-dbd73e559b33 - blb-v2-ethereum-mainnet-5c65678474-wd4g5)
+      X-Trace-Id:
+      - e9341e6f1d2c7765a131b38e3519552f
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "net_version", "params": [], "id": 1}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '66'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":1,"result":"1"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '37'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 19 Aug 2026 18:43:22 GMT
+      Vary:
+      - Accept-Encoding
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_blockNumber", "params": [], "id": 2}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '70'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":2,"result":"0x1898a2e"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Chain-Latest-Position:
+      - '25791022'
+      Chain-Position:
+      - '25791022'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '45'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 19 Aug 2026 18:43:23 GMT
+      Request-Id:
+      - 2af96bd8-c54a-4b71-ae5e-1fd589aa1970
+      Vary:
+      - Accept-Encoding
+      X-Trace-Id:
+      - 690c907d009e0677d11268669e5f85a0
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_getBalance", "params": ["0x50532e4Be195D1dE0c2E6DfA46D9ec0a4Fee6861",
+      "0x15402"], "id": 3}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '124'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":3,"result":"0x46dd54b7972bf800"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '54'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 19 Aug 2026 18:43:24 GMT
+      Vary:
+      - accept-encoding
+      - origin, access-control-request-method, access-control-request-headers
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T17:17:19Z)
+      X-Info-Node:
+      - (6680df63-e588-4327-aa69-046440f6712b - blb-v2-ethereum-mainnet-5c65678474-vt55v)
+      X-Trace-Id:
+      - 46b3ae34c02975d2879f71ff2c3f5880
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_getTransactionByHash", "params": ["0x5c504ed432cb51138bcf09aa5e8a410dd4a1e204ef84bfed1be16dfba1b22060"],
+      "id": 4}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '147'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":4,"result":{"blockHash":"0x4e3a3754410177e6937ef1f84bba68ea139e8d1a2258c5f85db9f1cd715a1bdd","blockNumber":"0xb443","blockTimestamp":"0x55c42659","from":"0xa1e4380a3b1f749673e270229993ee55f35663b4","gas":"0x5208","gasPrice":"0x2d79883d2000","hash":"0x5c504ed432cb51138bcf09aa5e8a410dd4a1e204ef84bfed1be16dfba1b22060","input":"0x","nonce":"0x0","to":"0x5df9b87991262f6ba471f09758cde1c0fc1de734","transactionIndex":"0x0","value":"0x7a69","type":"0x0","v":"0x1c","r":"0x88ff6cf0fefd94db46111149ae4bfc179e9b94721fffd821d38d16464b3f71d0","s":"0x45e0aff800961cfce805daef7016b9b675c137a6a41a548f7b60a3484c06a33a"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Chain-Latest-Position:
+      - '25791022'
+      Chain-Position:
+      - '46147'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '629'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 19 Aug 2026 18:43:25 GMT
+      Request-Id:
+      - 5c94f4ab-0a18-419d-8a0c-480150df14d6
+      Vary:
+      - Origin
+      Via:
+      - JSON-RPC/2.0 blb-v2-ethereum-mainnet.ethereum-nodes:8181
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T17:17:19Z)
+      X-Info-Node:
+      - (6680df63-e588-4327-aa69-046440f6712b - blb-v2-ethereum-mainnet-5c65678474-vt55v)
+      X-Trace-Id:
+      - 8662a1db5613cb2bd886ea123742372a
+      - ec5756d682ba192015faab96ef362c27
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_getTransactionByHash", "params": ["0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d"],
+      "id": 5}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '147'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":5,"result":{"blockHash":"0x7ab1fd5e82fa0b7fc85c18d9fe7c22f0f4b299cb08e2309877f78525aa6cad09","blockNumber":"0x17d3dbf","blockTimestamp":"0x69f1d783","from":"0xee933dca1eea67c12102cf8ea3fbf2a16ec536fa","gas":"0x2b3fe","gasPrice":"0xcb49bbf7","maxFeePerGas":"0xde905180","maxPriorityFeePerGas":"0x8f0d1800","hash":"0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d","input":"0x371fd8e600000000000000000000000000000000000000000000001847b2da4b6ead34d2","nonce":"0x62","to":"0x53a3036b1b5450071eb404d671c1ad75866b32fa","transactionIndex":"0x92","value":"0x0","type":"0x2","accessList":[],"chainId":"0x1","v":"0x0","r":"0x66808fa51721a21b5259e7f003632d973760a2fbd6fd2d935a06973690480ff2","s":"0x1d406dcb5bb53474235d5ffccf6a5810de5d51ffcd06cf6dad04ca60c6cfca7b","yParity":"0x0"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Chain-Latest-Position:
+      - '25791023'
+      Chain-Position:
+      - '24985023'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '811'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 19 Aug 2026 18:43:26 GMT
+      Request-Id:
+      - e442f99e-cbd6-4559-af02-08c2496b875f
+      Vary:
+      - Origin
+      Via:
+      - JSON-RPC/2.0 blb-v2-ethereum-mainnet.ethereum-nodes:8181
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T17:17:19Z)
+      X-Info-Node:
+      - (6680df63-e588-4327-aa69-046440f6712b - blb-v2-ethereum-mainnet-5c65678474-vt55v)
+      X-Trace-Id:
+      - d921a93ace278dd2bb7a426a55711416
+      - 98e02f0cee9643f733e40b7d08f8dc27
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_getBlockByNumber", "params": ["0x17d3dbf",
+      false], "id": 6}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '93'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":6,"result":{"baseFeePerGas":"0x3c3ca3f7","blobGasUsed":"0x60000","difficulty":"0x0","excessBlobGas":"0xc64890b","extraData":"0x546974616e2028746974616e6275696c6465722e78797a29","gasLimit":"0x3938700","gasUsed":"0x1d43544","hash":"0x7ab1fd5e82fa0b7fc85c18d9fe7c22f0f4b299cb08e2309877f78525aa6cad09","logsBloom":"0xf0b3837e63ca9fa77e096375806fe7aab359b37d75ad5e6865d12978be7fcdcf7fdf556cf15e6d6feb92dff3fdcf5d5f1fb9eb2ecdde2dfda1ce16b9f7ff433fdcef3dcf37f71eb9fb666bdaf75ff2f4146f5cfdbcf71d67b677a75f966bcfcfda72591abafa82997f67d79fbc536a6fbbfba42eb2f737542bb2737cf23f8b4bbbfbfffdd96ccdbfeb5aff6f1f76f7cfcdd69cef7563b1daef768b4ef395dfebdf2d4f7374f0e53316f072efd9c98c94d7aefb7f26e8e182ee7c472ba75a6ffbefff18bfff232ffbdabf97b364ed3f03a33f8b4be7fb2253cf93f70766df3b43f17d7988d3fbc7892675fcfbd14f1ccfe7a4bdf7cf3877cdd6f97fefde647515","miner":"0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97","mixHash":"0x8de03af78c48263fa7d592de3d96b391a7314db30a5ee2e24ed8167fa4a27067","nonce":"0x0000000000000000","number":"0x17d3dbf","parentBeaconBlockRoot":"0xfcc0cf6dc164a6482c525236761ea66a1fd763ee008781ac2dd96abb7937f884","parentHash":"0x23edce6848ef128c29b579c8139180b3cc2955e714f24ceb2080e6785ee2c56f","receiptsRoot":"0xddf5c4774b18c6a15c7a6fcf0fecf8eeffe55bc0e2d6b419522b770fdd4f636c","requestsHash":"0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855","sha3Uncles":"0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347","size":"0x2afee","stateRoot":"0xa0ee2b34b88b8eeef0e3b543d4c8d2a15e1d091c5fb56fb63a17a6e854ef626e","timestamp":"0x69f1d783","transactions":["0x3c8e9920d8dc23229e568bed58966da648fadadefa4fa6d0f62ef42772a62f67","0xbea85544cba190916e2c469c58a9a5e5a27c8b715efef0f9e042108b4b3a4dcc","0x5b88678fa365c8fa84842ec60e45e5a8dd31ec2b0e3fb157926939f93c3b7bba","0xd4afeecba4a8a2d4ca79b1c9e9f1d5aeb4caacae30e4f06ffb4f5e06d07dbc4a","0x1e2849eea4b994096e001b5a7333bc5c282f7a987f660f35eda012c536427ce0","0x030ac293c3e45bf662da91bf3959aee395408c399ab3ff1bb9a94d3c32e2d02c","0x522930e29736aa2c4b8488bb711a7a92ad14c0dba905886bf72e5fa91f9d7c8c","0x76cac429fa3e23fcfb31caffc71775ed18822c431de451dafa5a26b9d5f748db","0xa2be70052f613d7bee3db4d3188d5aec1bad88144578fa0dbeb63ce717b6d923","0xfc2599122733b8a05cf92a0fe5791cc5f2a6efa779a7e8a71e43ba9018d5c7e3","0xecb722ba974c7b87df1b5fe43cb689cd94916afb9409f3617d49a5f43f460ded","0x30297e1ac624e58f93eb9b2fe89e6e903465bf3c0dcfa0424ae3ebef46f30c00","0xa1790219fbea19a110ad97232564eb405879e9902f1b47b7ce22543a01498cc5","0xd220ed1dc26b205f275903764bece639f1f783f920374d6eddc2368ed3a8e089","0xf8b980de05fc6a385b4b83d30d91588443d133d7520ce29c7e78f5d522552007","0x559f22259f4d78534ea9004ac29d607cc9188e728273ab188770bd43155caf17","0x7613f8d45f947151e46848ccc982c0545d7ce9944ec1c96358347314240efb21","0xb5502be4070ec58a35c5666c454e2aaf1fb4d90dcf8ee45bb0fcc352f064d626","0xbfd4919c0d4c9f004922bed8913053dd93976ef26cd06893eb05cd221164f971","0x598879f12695ad6d27fb6dc3c26d2c81b3865a0986e312077cf3c944d18f77bd","0x6be7d2961ec292cee8c079b32e04bd94c7098c583ae407e4e57cd7af70595c2c","0x3765a7e34c400542ba756ec4202a178535113cb026d2a32b75ffa289d652e119","0xab5a91b36ede71cb55bf25db5e63d74145aafb50b605458298bd50ceaafbff57","0x70056de5a1df2a5dcd479c8ee8ea43e0bd4f152978d4dfba73456aaeb012fe73","0xb158a02da55df31ddaa1151567d534d0cd9949fea3acd9e8b6397ceaeb6d42d8","0x6d963c717be92f6a0e84e8c13cac6ae53d59f24bd834aae85bda5dfbe8654d83","0x42ffcf2f2fdd4b220dfa96a0aefaf9412349219d92d94f244172bb7373869e6a","0x71cdd085bf8ba45b0292895ba2af64dee5f7709e2056d39370c484ad41a229ad","0x496398c8f097aece04ed60260a950d500eff2ea7c2f649d8ff8068dd68d4b783","0x2216b0ea2b22ed0a69f3bc524a3fdb839c7a25422c119453ef18c54fbfff8cd6","0x47d9fca31067f302957593318096fea6784cbc49361eb242ed395d889c790a71","0xbc5a49d20fa1f711f3133896ebca2c24b80e50d3532d1809ad261a4cb83e794c","0x7d0c4f3fc0093af4e50e77d6c2fad9875ce450cf83ba7e014a4967d255487595","0xe8af4eebde3ab1fb4f1c42e66e1983962835b075c238c94a18b97b112807e503","0xf79188b3b3c39e05e06d0f47a5181198617a5e84693f8a9a6b4ea0d031c3a32e","0xe0cabbaf70b45a51b9f54e9cc2e650f6687c8a7f32ad255ebcb119a2926e4a3b","0xecf7ccb874d7d94c9c641463f21e4e15fcaf27a9358f416396a2f1086922b2cb","0x4b5045db5c4097963052835636f107a5906ceb5cba338d9a2d75d40a00f54797","0x4a8854a8e3739714002e5a363590118deafa5843138e5db38ea4884e222949f3","0x7facbd0cb7579f6b14c77744b802c82f2b46b708e7e218e037bffc9e7cf6d9ca","0x5add37c0f585ceaf9562fada245b644499089264819338b32c56151f5ae408e5","0xc2a2f95f662f5fe17908563790c467070bb7a4ff8e1d1c351451f9212e490d4d","0x98cdb5d6bc7164c60afe0b1294cd9948daf1bde8d3ac6b21316805b12d9c4def","0xfa4d539580540c1b0726f2224c68066aa754eddb18ada4e08e2deb356d26ecc9","0x7e1cdcfc9d57041a5cd813a099d5f81fb03d086605f46282e4df34d090d98c36","0x9a2fe7c901f13b308404abcc2811c211d111880cf3455f0ec939c1ede8ce0190","0x2ce30062d094c8d42a06bae586961369444faef9302e3af2c647dbe7d353295d","0x6cd1bc88382b16fdb0b5e0e54b4520eff3147025dbd07db71b02b15bd163e42b","0x31ef883eb4f9695dd22d694be7cea4f34b5da1791839838b65e479b1ca932181","0x9cd8b5da688514277729c7bea3379fac15515783e65e1d56cb520e5110a4c62d","0xf7be856eef55d624e67ff4a67aa83e010f4c5c0c4b3aaa39f746f71d7754e1b3","0xea9ca5ab10e9cc82b8400c41415c3291bf3ff2766e8349053aabb046b2d796e5","0x445ebd6fe523b5f37b5dffcbfda846313e26f9abc31b050dbede1b36848214a6","0xef52ecd64f98c53f4c4c5ce79fab3a1ea53d31fe29d97ffd493b8f7e93d90ff5","0x70460300e0bd8de88dd879d4253b5b74ed6217ac7cb44c0bc0dfbd5466a7d8af","0xb741bd0f307b3229f8ab27a4bd3cfd9ebd9e98de863cfa4c037fe1a4f4a0df82","0x1f0b731eb8b5c61b0442d6fa49739f7d789897f1710c58535328f9e5d82bcdb6","0x941fa0c8291cfd79b16769f687ca7cc8a9043f9f99a24db33aeba7dac698c2c6","0xd8c1815764c565cedbc322aab9b483f481072fb4d0c2287a48a86713f9bb6abf","0x1edfeed4bf5f9ba9757b50f061120694d2b8ff1910f893f30371ac2692670691","0x51dcacf2c264db725e44b7499b5092a888b5ede2bbde59a656ff56bfa3f3af74","0x7bb3bb2e31610c7475422322f2441fc247fa7d384b69570a6cc5f1e6ab2b5667","0x20f7e02481fc186e1aa3f4d5d3c70da3be1075aa82be370e203865569f18e5d6","0x04cc483c90383c98762cf3eb165b2f85b607aefde457e4b58a236f85b6a95a53","0xd130081fd448569a4a50031f7476506b5b3179bad5c82a054e72add0146f67a2","0x0f11a2a06ed18f2571257a7fc872070fb402c958577f17f17ffdd8d605f81df0","0x522a4eaf4ac897c3ca2996911d216f24c981d0826993ac727165be74f6e4a62f","0x5ddf5536c3f336fce2d58c696baeab9a544f4b5ad2bc8c19462ef780f71205d2","0x59cc04e828e54d817d1c23690304d01fe5de29ac405484780bbb2a9b09d036ba","0x537f447ede8a0dfc57d78ffce347895544cc3170ab840604620151ab124f45f5","0x67a812e4c7330ce9cad6d1ff7e07e79c6d4e4a8f8d9623bf1719cd4ab735aaec","0xf46501af87d3004541eddae5efb044d61770c1127df0b5af251e467d3217db7b","0x173c465040cc57615486d6848b67a799d72082171e771419827962456d905380","0x7beeaff561755dd12f9d5091898ce8f8321789e8c05da0da12b9cac6ba846184","0x31724490caa0b0fec6783d7ea8fc5a7516b577712a7999f876bdc799eb93edad","0xadf000dc803500ade1d2efb0dbb41ead1b6c1002a244134a05a7f1a91d06f71a","0x1816ebe46bb04c6924e6b5378ccb7dc39ee0eb39cb9ac3077b3e5ed5bd4a5931","0x2cb6525fee0e300e02c7085139145292233b93a2bbef7d39418f70b93ef39f15","0x43dc79cdffda1ab0f702d089dc933daca8053a3409938fb0f48243fe1948fa72","0x3db0c205f7acf0f8a90fd89ea23601086b86193353e7c98c091822533c15ca82","0x6099e3023b6248adabf13fa7b82ba04310a5f2ae8d5dab1877ffbbd3a8d2eb02","0x19baa8ed18343708dbfd9f3fd8610f82f8cd6e8a679c5b955ee81561ee1d11e0","0xaf1e39e410595862916360d94ebdd64a2d730eaf1f4d2136248772d998b3fcb8","0x51fefa4c406bf8d53f4f44c9da18b244047337e7fb971439466b0c02d8ce44c4","0xce81576adf971ad542093e8a6501f45ac2f40307f91b18a2ee4aeba85af58299","0x488c8466c6d66b9eda1bf979fb16e6994c3c2dfe909c12687427d300ede620c0","0x6592b60fbbe3bb8f48b8f3c8e5a2bac80e123db46845f780b58f267dd0a806ac","0x097cfc040af37641578c2f0f29d406d9c9f555d69c5e17487a1221c4bc2f6575","0xfe5fc54b51d40ff43122b380b459f106682da17073ce1b8fa9d69497c143b0c1","0x324cc425a9168d02614d10d7827f9a0b72d7ed3dc7f594c6c0a92e0729c478f9","0x077c83de2015bb27944c5779bc002a1698b7220cada7721d2a7108cd14ad4767","0xc0c0efd12dcc4341813ef466fcca43f617786adee85cef61ad158816a06e4155","0x0a48c38133a13d2fb74ec20bf6b7c2c14d779246e691fe7bc86a7853f71b1d99","0x8b3f5997d512921667fa9f47756f404c8a49c5d4c55d8e4355e68e3411c77da6","0x755260c4f3d74c9f53f2de71e7311a978aeeeec7770b76e0ce8285df8c4dd0e4","0x3f5ca69da4b0a0e1099c84c4c9fee976105b589e4331f23203b8125abd62c82c","0xdddae42e1646283310eecf523531506cdfe0444ac0371277e9527d3cf7d06970","0x3f04c21485ba59e2ee748034dffcbe4841f9301c6b481a6916f6fae0bf6ca523","0xf72e4283148cbf5bf624ad4cab812bf4bc2397e71e9d27a0c4175b9b9c46578c","0x9a70dda18d9aa31914419354a51a6a3e5bd180204b53e0dc0bc2578e82837a66","0x2b9db0c1a9b52254a28fc13c159b8fc8ec06b55e68e5fbd73a9e845c2667f4fc","0xded7a754fb35ee59db1134916fcc24ec876278ea504b3e9ce4c498b3c5f8dbc3","0x922051ee9fd27f0db9db7e74af9b9b7d133aca41a746b704525c0ddc9be1bc6e","0x618060bce0d23f2136158e40ed40ed485147a94e96d43977d92b8a9a0bfae72d","0x6064a6a32acfb7a0081e35482da02030fc7cc2e2df63e7f1955986a7785155e2","0x4cf857c0b9fff032f79c400c2f98212f6354c9beb24dd00e3a79ae857887b142","0xd71e526784d7e16574d21679897dac052c33549662794708276de6bc42ce2625","0xa36d9356aca02227808161d9d008470826500fba53600e743109f7c3be5ee202","0xee1efa36b9aacd272a31d7d743063b8282875908e2f81eeaba7f9b72966b65e2","0xea90d0e0820f9a3be50d05b67c672320ed5b955b7a98696f453a7defbbeddd6c","0x1153695f296ff35ab7455c2aae5a14c2e55375f7da752e9aa2f9dc9aaf53f2cb","0xeb785a544e902c60edc382df556cac93f1311fcdbafb492324c9a058a41f4e4d","0x47bc9c3ac3a799f49e5dc0969158f07135e0857eec5691d58ac551a36ee3248f","0x6e0d91bbffba6b77cdf15b4a3c4b75b02ffe201988cc1906ee33fe4fdb8d3401","0x8f1f3da0870c6033f6c1aefed4fa9e67f233b093fc9452deda28a4223d9a1afa","0xa69619e6c7c90af8831f40726f18cd7c2097316b54e4e9b0a70e71918d849284","0x8168421def0c9a5221ad269dda0dce83126babcae705032501ac7ce26956bc3c","0xfd43d66b1cc34da2749a04f0d4d7d9d2e9737eb3aec46879c6a3abced0bec986","0x0d9656830d7e8d7bb7ea09c38167292d6d102645df299aa0e84227597a28910b","0x21fd42e63bed9ba49b0fd2e408a7056113f6215691745bfb9318e5e6b95c4424","0x7b2c9f2d0eae3b1774b387065271919eef48b56da8136b4b573b179fddd04721","0xa4f2f2a0552a6853db7cec6e0a3c056bf331386ca90f129c7c0a7e010aa331b9","0xe318d8aad89497e6a099babbff563a54065d4c10bbe1d7f8998c687f4d373f81","0xf31d043e0b209356920a80fa9ccaf57cb7f2c7c3717b5f8dc0a3a8120d9e4281","0xf683647b67bfb140fe8a36892b59f66de795e4716a329d552c2ad324e702129a","0x5fa0a222656966e1cf0ab618045f9eea4ee7e83c939f088c7f5211851c7c83da","0xfa38815d57f0e818d23ca33f3cdbb8f40cc24d0a92ad8cf4ff0b22b2bab00fab","0x38ff5f4d4039facc6f5b0ce675063859c1ed0dd8d520bae66772a5920f9499bc","0x93186aaff1966dbd0686bf07741af4445b30cfe031d6026a06265727f6aa49e7","0x52ae17dfb6fa53a460a50c1702cc33e4a0588ae01508293bde665f8db9abb134","0xe4edc3c49df2510046052ca10e31a596d22c29607342be1b1154f1c047cf8706","0xfe1c61babe1e9c33cdeea58f8f01ef2a9e63a4f76148f754290f1aed81313dca","0x109c7eb3926622c68ff6dc4fdb116dcc1be0f7f257d87133a788ee98c5c1e26b","0x14c8eadd551149437aa429c15f5d5fae6e770d879fe3e56a14e57273344b875b","0x168cc60d20b85c0a187b1cd6b69f580257d163ce8abd82ec0541bef9bdbce70e","0x1737ba29784f6148e44c7ea29e8d61a2309b8131e50221183e04629318d60a60","0x1d45fd9799a985d7e5012ade55f07b04995172f8ac9141ee5073af9981564c15","0x3472bca0780f2b3a0468e1d8e6fc9dbfa8e7b95afbe8e56420e1d29b8c855354","0x3abba0c08b640ba6b3d076ea8088bf8e69528ef00ffbec03476cbed244a126a5","0x76927d728ce28685364437d786675210151afa5536c4e4e2e42c5c5866c234c8","0xacb56458adaa75c4c3925fbb639606b70ed9e447f4067aae9f8521da9516c5e4","0xdc5644aa3fef6aafbb447aabe066bad7e66ce4b5db404c9f5456fb974dec04ab","0xdf6d8594db730c317d02d18be6c9039f55cf4370a04383ab5e6d8913375ebf83","0xaf15ed9c23d4bbfbdafcb3cab4b2ece4345f1a43c85b301a769c60039d19530d","0xb3efb7daa3035cef45b9941ca6cc6410c7c6ff57ebbfee7d463c7ff009355272","0x2503679a7aa877aabc433fa7cd7bd28948a3a5bd4cbda8c0fe63fe27ad040dba","0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d","0x0bdd3b7626ac3ffd966775f71429dc32dbe9b6f885f9e943bc1519cdc7ae9064","0xa166e0d29f6b24f0c3e183106939d3190493ea8e8ab97608022bc0d2823def0f","0x0e612463f9815170a87482fb9da45cf74e2d8cbcca279a5261e32c755e995dc1","0x1fbe642ae12305ab3550040adc7937eb862710c72beb67f5ea085aba86f408ea","0x47584793f0bdfcb6ec2ed2bfd2f32b9030cdaf2927210c95b9faa94f8414e091","0x7fe7c8be7c30cd64c5022c5efdb617fff7d0435af924fbc09e492f83601784a3","0xe0967d84a06be241a206fd013394e6fca970a3fbae0ffa2ee45e625a28b92d04","0x93935a9ae900e12b10cccb074215692a9ef5605cf71acc34c90089cfa8fe664b","0x41d182740c79ee15bd6adc61210ab76757e47b522151f528fea4a9814d5add4f","0x69cb29f0cbd8e67621a5390439019eadac3b310779522841c18829b893176b04","0xf47bd722fd0931a0624cb463d5af057bb9538bb247e22a0aa9fa37ca34f3601a","0x2f1ba4bc1bfe20a22066848c5ae8c460f97d5d1cbf940ef56f5ebc3a9471fea5","0xbeb9a918cd074534a885561f6cd049e5816516f95cbca262d93e177c9c63aa0b","0x5b75a2451f221be5d9b190fe8c3a2d92cf387ab0cf262cb77f4c59ee2ee4e511","0x1e563a4f55eb0c6900bf4ab433b4b9005e29bd9f0e852967b63baab8ad2e0183","0x4bcb4446c5d1f940584c28fbf9768f632b8ce524ab187dac1673c326612b9192","0x35e5c38ca9e8869baf705516e7aa4d9f37fef7e60ca103729a5b1c5689c62ce7","0xe41fb663d6547c5e6d3bb275f136a603658d7292e4440b1c0b5980947af733eb","0x315973ceb8405ea2b22167ee7c4cbe662c397db36dfcad6ada59bbb68058c1b9","0x73a3f7bd55e57d4484e01ef905d3f3f4d7e3fd823e44b5dd77a22ce50bd3b561","0x3df2234afd6e9a576019b338ae62618c38eb9ef081061693573a29ae3d7003d6","0x748959695b28f70909a547a474f4d5ae1c39bfc7a234e09f94cc40967ea68f8c","0x425be6ca55c394c53da1da851becf3b1b6b682303c859aa20394483b1ec7c2dd","0x88e814d6223c0cba875125dad2a571af3504bb7c2a12d62a05b552bb8b957db0","0x572e9f18a4a69e754eba8ce2dc5e5b6543564043a42c69f7d1d2397dd2b72e34","0x52570fcc1502094c1eeeafa59ea6b0b3abaf5a9eeba135c89a8d91e4438f589a","0x4098ca050e5a39de15d1f788ea26e5b5fbd62e18ba183da775948ca55c896b0c","0xd2fa2fb0cef8b751edd317e3da530b0f30a68c407de3fb4cb422b51086f8400f","0x6e0fffe41fa316d37c846284153deecca51fe0239cff28196f892180a6eb8ba9","0x427e5b900936f2ee71b8293ef5de12f7fd04ee0753b429397d6d68bead60749f","0xbfff9edb77cd9e55db486b2ca39497376108dc1eeef2b156cbe99eb31813e18c","0xd232d4e27751d394fe211fe61520069e9f18a04d64010a350e3b6357d279b0ef","0x7490a654f7dec19c48145928e7d8229b3dc5a8b3427521f5f0ff29f90d249e37","0x64536f8ec97a82f6e82774f48bef5e12f669d600cd91e63b4ad166964b19efc2","0x995d1e449e9d2bbdc7486d4face3555c4b9901a87c853baae5b195265a363c71","0xe0eed985063c89dacf077b0cd3ba1b261ebe12822a5803d83cdf540e69a0383c","0x7d2da84ed78e8adf8875d5cefb11f11f2c860a40bc7fdb845c373eb059dc96f8","0x17cd5d701c0d51c8a952bd85464c2f5442b34be3897c68fd37d3c05303f50f26","0x7b4f66401ed484f8b31e5bfd1653f2d984d6db2956dceecda82302802943689a","0x2265aab07c6a1148a88c4b01c5a5414eb2fcfc4df9514316cff02f752aed8ff0","0xfa08d904d596c13af59653318dc3cc172abb64afa798de8f6ca3f87e4d2e654c","0x4223f68d81e3f803c47812c4956af4650c4e6b85774e0b64b4110bf03ef36499","0x82326aa20153055918d899ca4acab0c517c0a3c0a695585adb836cf67eb8fdf3","0x56ea0ca4ff02af3e87dcc015a03b0493214aea95b09ab1b0eb88def1b1a0b20e","0x757841fa8ef369b977730a67edfbe29c974a76b0f381f6fcd31af83c1474c429","0x88993bf7356ce5944a594098da49f85beedd3be307ded1f2568a4f4beb867849","0x89e32affa6b71956861d8fbf97ba5fe66fd3d3ae6491efaadfe59ddacf131d7c","0x48ab7f047858c8d131e1b91fb92a7f8e3a61566c92317f7d309773d4155fcb4d","0x4057e0ab754e7687163c42b2c3be77224484dfe121d15db8002f11cc4fe786f4","0x82459198df097edf9472d0e1e56a2925b976815178144878f6c55c526da9867e","0x911e57d73b367cae6ea314be9c20221c1b9b9822c3989602bd02a3d3ac601b22","0x25051bfa8112b9fab325da98b06c74e4faa728cb0de435a5dfb1d45e562bbfb5","0x7a45606b2ce5bcd578c7f6b09ad955839419b9ef177aa9259fdf31ffac9231c6","0x563fff3ce7bec4e4f0604862e3883255dc8d27510103e1f209c317419327b511","0x4d13619c76cd1f9f620fe9a5c6d7d0c22709474cd6f15926375dac43a226b4af","0x3289b5dcd2128b0a8778e2f5282aa7dabc8c3b0cfde49ee6732d57410b23895b","0x829994c035ca7d2ee9e94a46cda158dccc4053ee8c649acb209025046abc7057","0x09e5cde5f9be41302829b074aa4144b21b87c5a1c62f5c74177b185ff7fd62ce","0x383dc7514929beeefdf8885161321f9f5a7e8417a245c85f53a790574097eea0","0xe1472abfef1d92ca0f980b4213e096e09df8483cbdafe8074abdfb730e5fe4e3","0x2e5f709665648901a321b17ccaaa59ffb716fd2bc0126f7f92730f51f50a422f","0xf3b028537d7e60e56a4debf697046a07316dc67f6f1a68534a25a304520eb080","0xb81d365a31b39502e9ec8033027ab448468af857538042b8c0bbdcf8a17e072d","0xc7b6ec40cd549ad8ef022edf8d73c92045c4d85e28f38c29c2bf0b0f59756dfe","0x9abfc3f56eeefa878c651f0d4b65efadedf81c5b91d5e226502d742adadea88f","0x66bfffadbb934bb678c1c7df91c565d6fc92dd2f52924a4ae6e8c0720cbfbda1","0x2d02b6a9238243da7cea265bd5c7530eba4bb7cc2a65b56f4f78cc063b55321f","0x8565045cdaa00d9de7672f30dd7fc8fd8b60829475c9766ac5ab5fe67d54f8f4","0xae7bd0c4cc2d732197390b80ceceae08e1f28be4dd043fca5250840c8852b9d9","0xe42d4e1334b0959bf6c4e216da134d3b7fc557614ef4557183af4ad238edc4ee","0x6da02c498c87c26a597c28ee6f89f2a45a7380bafaf87a6d7e0fcee4f3b785d7","0xf4e0a500c4063cba99ed9d7a7699e35ae8ab9cd51c120ccc854eacaf8e41e9d5","0xe48cf61ef1ba40e4f761f818f4827b9801d12d811253f21ca207ad6ac2ee3c78","0x79f4abfe7e303ba944d22312c6f37a0bca6c3baa9f06d2f2f340662feb48d681","0x39bc3d1dbab96fc02288bf8d7cef1a44125398ba735f96d8c22813f450ce8e95","0xe26ade2f6243fddfb834330cce166b11fdf63a63e199fcd316a58f1de9106b29","0x73f2326fe92db2cf02baa9a8612c25c86ef10e8227f3a090af8f9c9f6c7a24b3","0xf0105178cc3a4d4c278a1b6159a49df111ff722d1e4fc6381cd878918883cc53","0xcf26d1f9786ab7fc273ae9dd82c8f6071eb18c89a4d3f4ff6d453d88e5439e00","0xc852dad05fd617d92ab0aecc4d5d5eab94e5ad5a5cf91f281fb6ec3edd7576d2","0xeb04a74450d4d17ca77257b0f4609e5443e99be7800e53cf35880f1c12bb3182","0xc83b5bc6f6dd7438cddb383cf4a19baa2d5dbe1f4e00dbed5b26bc70d8a0f6a3","0xe6dd30986bd03109bd70952aaf3ccf4cdb0b72199de7d7219d2398337ca692d4","0x733fc9ea4ae4bd54a5dc83c20ca7d47a73d660f1b5938f67e1685d2a6d82c530","0xb836ca679d3cdf90d38431a9685c86eff9fceb98141a0143cf4758f2866e2530","0x3ff931ea328a1b494c9ea0b88081b83d47d9255e8d50440fba1fa5e05d034380","0x9e1cc5d18e400b237e996d90d5e583c7ea71dde7ed2f9042967794caf36c090b","0x5b366162db867d11e423b90c0e9d12be244675eacf8cf5e22a09090d4197bba8","0x15e26be03fc29f44a5163312467fbac3d651ecd0aa0dd5989e9a9f187cbd1853","0x009c50c9130ef303ffad77f4ffd282584811c19f4202fadf60aae2c2bcd9fb4e","0x2fe953be6d71f16c6090a2fa329f5cd7509d7ffd717ce6731dec2ddf241d6c01","0x8dfc02e16b8a0ae4c6fbbceb86851917b08263c7bb80dbeca774626d545e276b","0xd5e68a5ccde6ae1e49e70d73d181b44bb79b02ca1e13e07432e369032f30090e","0x2c6154b75b565d2ea133b04807d80544c4cba124a879105981a32ccbbbd4e2bc","0x385483caf8b5703de224245354d67794f0c4452a7288491a73fae65fb4342650","0xda3509f5caeac381d1782487d349599299495e0a96326538957e24851d25bea9","0x72498a5a4a5f619c551b268e8aa934b8c7453af4298549877e41a682151e263c","0x2da600bc120b2a079a0d93ceeea5f783762a7d22a2f3f5c487b0acd4b7615a03","0x7dacb93ba54c578c628a44d636eb7cfad8c9cdb588e5dcffcf691c6319dc96c6","0x00fb7bd8755712917ee5fb2f4ee6ce12630d613314d2db5c154a313305c00c0f","0xc77e87afc8e3e92e93d8cf7460b1f82415c5512e7f356cb5ff6320023fb60077","0x7ce96c8d20964bb84bf6c8200cc61bd1885ddba235ccb4addee83307f5540508","0xf6dba200bede57a0c050385bdc8f4792fcdc62c2bb81a0d3d827fb2ba4b86e16","0x42af096c5807dd10cee5ee7d3547deeaa9a8464d92961b2f6e581a75aff9c57a","0xa3593126dcc7c62133d47ca9cabbc6bef9c749aea9a08c852bc9c71e36e01de7","0x8f8a066695c9bc57067b5425e2389b00ed98bb0ae0e7cf0b336ca42ccbc033f5","0x86aec504067fd696cc77e5e6f6070bd76ea2c759ea59058dd74b23ed9c497cc1","0x4aa3fd9ff2102104e6a7a57382e3c5c2894274e41df3c681830de7df685bc723","0xa62da84121b8cf77628e6c5839ae5a021d17953cae10f617e5d07fe3ddbde67f","0x6793dcc3c8e2d81c4aa16984d4bedce853300c1f7119ee1a7e244429897c043d","0x629d6aed522f47ad7641966d507a317958faf661dc3c7aa8eab26b2bdef213c1","0x4670dd6c59719334dfb63f10e03d4aa76c747a758a908ab5edf9ac69753f5cb6","0x2dc2bea238b751e207ebfdb1d5bd507b66ba16b62516ae0b397c75c94280b808","0x7d5fb9b3343f8fafe52ef16d0c58a3e6aa53b50b2187cbd512e8676144991bf9","0xa02dac08c014297e8bdf3de18478bbd6a938db024548a6a01b294763806e7fd7","0x7390c2e77067d35e93fd17627284442a31613a3f160eb2b2b6d10de1e0703f62","0x2102e5492071acf9b8ed60e29d7e6b00edc25edcdf48dde553b97f0120b21a0b","0x268147872dfa0c6c486d3140e09f9547609ecbcab4153cae1b31d02b82123c77","0x67915a09d680a0e23ec2954ad5cb3a0dda3d1bf56859e5099f146c21f8c250fc","0x53281c6a811cfb2f393639200a5db74b2807aa7111f7d7915b5cc2f3f5707692","0x01f5f36d9f69e2651e5e4e9866d7d6c78cfba09d2a6dfd2a8f334687850e76b4","0xa73d1b37746bfb2ee26c6ac7f4787713cec3c064ce2276f40a42b28cadc972fc","0xa64a94f56ec2ee20d7d511133040765f0425cd6e5d3e1c4148d5003453333999","0xe1c730ec51c55abdb68e7adbc85aae33928aec16259f2d234d58762b0e36bb63","0x26abe501e33ebdde25303a341aecbc66a69809d2e183facc66ffebbb9510a04e","0x794ac69438478734d081e8184863d0b7654fb0e098e4f25d4ea24e198bb27286","0x1179bac6ae07eb571220a05b7f9ba30407cb01777cb47ce6ffcf04b67edf7c05","0x87e6408ac25f18c52daf798a1b02eb6862262f0116db6180429b0de853267644","0xcd196e712cb0d2d4cfd14b6b7706457e24960dc42f20864695dfeac5b45c73b0","0x6d98bdd3b24d0e1caf066e68aaa555a43f4f1e11a2cc1345d36bb147e93a65de","0x57a255fb552cf85ebda1029a8020b64dfa11ddd421eafcc6067870260a15d800","0xfed0a8f05c7b843c5d30463368eb689a0d6e44a5bf7265a547d27b4ec4cf3d4a","0xc7be56b9a3452666b1c34998a26ef214c4805591e1903928250605aea27a1248","0xd527f1dcc1b775865276335077f5dc4823bdf98948982dbc770c6cb7f568078a","0x851f3dd231b57284ea4933409d6d7cb06a5e4b5cbda42a94c78ffc1671f55fe2","0x370acdabf18558d4cfa7be2b26b1c6ffd4f3aa741a8d4597c51a438dc56ebe2c","0x06afcbfeba720ac8efaec9540ce69f5cba24352984a65b370763ac8422fe5a5a","0x4fa78a776cf8154112806182affbaee436e5ae5502cc62e9440ded628371568f","0xdad75e84f0a6035a62a9ce29fb0a4e765f2bc2c6e187c135b1b7683a0eadd131","0x33fb9fc7c7ed145d6d413ea819bf71c8611cf732090f214e0f9c75075b10e55a","0xb658f8e1bea3a54df61c8887cc7c143b6670a72ce775329e7293b09308e68ebb","0x7afb377fa846403774f405acf7ef646dc86f3315f3d60fc2491377703e19a853","0x9b1a6ef8a64222bc8ca2e5ebb7c3fed217936a52e0f0bff1644f8bf7e73a29e8","0xad158fa1fa2b73fc0aa0b69f17ec0418447cc1089c94aef9d52e46fd7a9d108d","0x5f6242955ec877e93cbd194ad72b06af13567a5e454ac83d5080b2d4f00529a2","0x1987acc80dbf6336b640842205d081cde1d16473f7e2e99d516df2d4d9e27ae8","0x0e2101c359f5b6cccafa52ef8d23cb8f9e244305a21982e77fa2f37d03105552","0xba416608014d0a43f3f6119bd930900da21b14ab3dac8642665c5bb41e0360dc","0x8f3f385265b059e9c6a42ae05e510c5a4ad7e831684200277dbe3aaf762aa3e1","0x5365b2b4e4d6f49ebcf4e9776bef1164d787cba3312113dde6edcc538c31a04e","0x474231f1261887f8235617847c4f8b030e3e1fe9803996901df8a5871b38aede","0xe1101a7a04b14554a29034f722cf4fc7d7613ed5c2f1d3e112cc19909f64f36b","0xaf957b8e6920669e6cad25927c5b8a52a747622d8d3f1ad61188fac54fc58d9a","0xcf4c6af3dc05eaa0dc15285093f11933e81fcc94d9bbabcf06296326dcafbb50","0xf68b9834501e1552a8cc0ea97a62273c0c2a9ac3f119bdfa1cbf83ed5ea82495","0xd1c81e98c46cb5772a3d34bec9e4468f68b785faa4fe06ac422fa7f445e752f3","0x1810e327b804c8f845e7a93c0d95a034b5d934e6db106c878852be97d5677e13","0xa7ee122d81e5d6a68cb2f51437ace0b8cf8baa488b8cd6be06d4ac99503c4a4b","0x70b993e58413d69d23616a1d56c4a1c0252f9ad419cf5abcc06419c5120a30e9","0x5ae78bc8c795eda5ac5e516a57d1eb3358e1bd3ea184b5f1c6b5a95e85e1a582","0xd3fbf620a480796c12659e517e27d65c0017604ace485b6de6542943be6d40b3","0x474e2511e1ecc164901f263eb3875c17cad0aa62023184efe3069066a6f21f1a","0x97ad8fb00399e27ff1454ea5f3ce85aedec5bfaacec65e300e2cea42635ed505","0xd0f25b5b88a0fba4e2262d6f9b1f46f981db475de5f1a2c0bc50f2f615231cee","0xf40203ec84b740cc9c4c15156d22a7883d399689fd56c8a8f3ca1fdc16d79d87","0xe338b0fb79cd4a5428d5e74b6966e9f3216f7be02225d5233102dfeec4e8abc9","0x80f84f660404df1c9a2ea4290af80bbd38b60a6916cf75adcfa062eb854a1ac8","0xc653d1912f31951b2977e34b5dfcb9b9053d3cab7377d84f5c1d31892c798748","0x1089b4da5ca919b1600d04453dfbaaf2c42dc4c939d50a4f1200c1837e782e31","0x1cec1667d27c282d05632da31c15bd07d1d3f55ae1b0cc6b1c9119d7f4a807a9","0x31a177299298025b37cdc1e25273a1a698b7c99ce3385308bac96ee8fb9f5950","0x3e4c0f491dcf9fe6b9ae40f564af089f987c73fbd14d48db35e7080518d3a7cf","0x69684fdb25d858d8c5c8d6000cf9e9cb9e4c0e10a4db6790f1a8a7adf7092583","0x312fdc7a45ead66717c637cb9fceca1c5be069b3d43995de6f5a38cae713d904","0x49002b7c20fe4061ffe4e529fe62e7cbf7dc2ae7ad47340f64ae949adb2491e5","0xea32eef27be062125920a3e6680b7e254979c0e833d250e6a144b8fb0828c0df","0x66e435c34ad39c96ff42e00b95bd9eeeaa13cf4f07ea5a12dee2cba44e58de72","0x5b3e7b89733b523d164ebd462b17b2c45572f698f3113a4c49fb596b782a3b5e","0x76d972c70ae90966fd4d710d041b41a604d0587849c27590b08a64c7aede2b0e","0xda98f680c2e52c7b05fca88ef307cb497735d3b47df50369d3ca398674d84e2f","0x0d7c3c7702e2fb448a7104b0c3068f626faf4990a4394be3d3f8fdefe6ed32fe","0xab1eccc109ba3c2b8e3409609af6a9c2411250680ef719a276fae7ee33e2dac2","0x094390488e2c81318dbba1a94dcad826af4dcc400948c4b7dc9c6ab26a30b11d","0x79b3d64043537cfde6d2d3e9e484c0a1f737bbb489cfdcc1eb9d467260a9f6e3","0x360bd739c89531ce0c3d7c7b4135d1ea89e652b55bdab513a1bdfa4630c7ecc8","0xd586cdebe4124ce7ec901f697df31e8d383b8848c92f6d1dee02b3d11e598fdd","0x726b6745315f98ebed65924be380950885865f7dae4c50a8d5ea2e06198caf35","0x21c01841c92a78a18225d80b8ffc663ade8a221741e1950e2a572e25933f5bd6","0x6aa6b305fa4a64576fb515704d1f256cb10fff804c8d257ff1a9332c1e2e5ae4","0x1970414ce663bf2a4c6361b9bd54446efa2189c7ec3ba081c3d5755ba9dc96b9","0x84c57d262b4684792480514ea15f5d94bfe8ed3a47e1535ba09731ffa80faa3b","0xbaac252227067dc19cef747125dd81947b840111e014f9d7bb3d9e0ef146c2ea","0x52ae3b19f41f8b259d63e721b0432e7a4944a43833822e9c82e3fc12e2097cb0","0x4f0ce230c5881507e67b559e1f5f82fa61a67e9d1001a973a6ee334fa71f0ed4","0x551f914b521db0137d824baccc581b183d290a9b99bf3c31d11c7a04244669c4","0x79df8649237a8e6cdf271fc7350cf775060cc23c7ca9d327e6bfea6649fc7b22","0xcfb35cadd6221edee4a533b5ec48a01ad9a3687c06a49bfe3d8ffa519e4da5ce","0x46c8c0c084cb708074d974c78594a2215cdecce2c8dd34c14e681d0dc3021429","0x61fbbac7a3f15dee7d433c46bf01587a0cdf70c73fec84a914d33fac073125af","0xd349952a4434ebfafc81e1f37852aa33d4ba599594d2030c6111b55ac74914a1","0x27b6b98fe8aa664576abeee9eeb710f430991e81c2429cda5bb07a691a2e2a39","0x58a23ca8e9232a1c84cf0a4d2990a554cdb851384fe7125be1c6e0f1bfd77c78","0x9f5e817281ef9c1cd857c58c7628f9b9a0d51c8d8827d55aba52ce743de9ed60","0xa4fd4ead535d2589045131457934082146e09ffe0d9efd1b0aa6fae1de1033b9","0xec45efb087260746ea63b3d88340ca9ef9b1e1def2c1e65cfcd180a3c000e0c2","0xc6ecc2f2f56c531b66c989c9709a155f978e342abc6c3cd5705854df300745e6","0xc0af4839d1328961adb8a5af1368c4d9f7f64a0b9706e6cc767cdf6ca2fa93e0","0x71b3f6d18983ba259bda43ec5190da25c705e8691e7c7c63cbd3552a295427d2","0x852a4234f8944f89561a788d2698e85e101c91e6343b8dfc029c911252e6b4e4"],"transactionsRoot":"0x624a15a40d6743b1ac32eddfb86f9e2892f3a7e6f0f27406e9e2ae3937073cf1","uncles":[],"withdrawals":[{"index":"0x794eedb","validatorIndex":"0x90e7c","address":"0x7e69a9efa754c72be41124160180d91cc589ba8e","amount":"0xece82c"},{"index":"0x794eedc","validatorIndex":"0x90e7f","address":"0x69b0ed8f8928d546f5d192d75ff155a9feb46917","amount":"0xecc676"},{"index":"0x794eedd","validatorIndex":"0x90e80","address":"0x3e48910103c5632cb9451c2664fd62e67bcf72f6","amount":"0x3e683cf"},{"index":"0x794eede","validatorIndex":"0x90e81","address":"0x6074bf6f89588c8f1a46f10dbd114c4e095714d9","amount":"0xecdfae"},{"index":"0x794eedf","validatorIndex":"0x90e82","address":"0x912e51e32fbb2a71ee93f681993a7a70873cb232","amount":"0xec7c69"},{"index":"0x794eee0","validatorIndex":"0x90e83","address":"0x04b0c09b51aab95ac7b9108c4e30d55efb137fad","amount":"0x5fae1df"},{"index":"0x794eee1","validatorIndex":"0x90e84","address":"0xbe111c05e396bbc8ae8a29e79c36451661658443","amount":"0xeb3955"},{"index":"0x794eee2","validatorIndex":"0x90e86","address":"0xdc91aafc4863c6d4cef867225128d8f83d6d3365","amount":"0xecd6dd"},{"index":"0x794eee3","validatorIndex":"0x90e88","address":"0xcd35a0efa549614ed16c3362a12f6d3d39aa8fb5","amount":"0xecf0f3"},{"index":"0x794eee4","validatorIndex":"0x90e89","address":"0xab431a314857d7eae10afb8923d9fab26d80ad97","amount":"0xecd0f0"},{"index":"0x794eee5","validatorIndex":"0x90e8a","address":"0x4b9fe47271000560205a6c5f96caeeeebcd31041","amount":"0xecc5e6"},{"index":"0x794eee6","validatorIndex":"0x90e8b","address":"0x3519fb34e43e544c7be934a0843865b0ebbddad1","amount":"0xec9ded"},{"index":"0x794eee7","validatorIndex":"0x90e8c","address":"0x29961a46a74e7744865b9365c31bd5f592442e84","amount":"0xecd07d"},{"index":"0x794eee8","validatorIndex":"0x90e8f","address":"0x7fd8a1c5f3a8dcd5917f1c1f971c184f7054da98","amount":"0xecf0c3"},{"index":"0x794eee9","validatorIndex":"0x90e90","address":"0x5903dd0e7c207ed5438badba70fadb7be8c9968c","amount":"0xece20d"},{"index":"0x794eeea","validatorIndex":"0x90e91","address":"0x98ab32e65d217ec76ab44e119f68be0c7e5eafc2","amount":"0x3f0e83a"}],"withdrawalsRoot":"0x873d8f77ea82f2d37b07aa8b7125fe08969bf4fd9ce5f1afbc0cb6d3ab1da057"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Chain-Latest-Position:
+      - '25791023'
+      Chain-Position:
+      - '24985023'
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 19 Aug 2026 18:43:27 GMT
+      Request-Id:
+      - 15cdf76b-c5e1-4886-b733-de0237d9b45b
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin
+      Via:
+      - JSON-RPC/2.0 blb-v2-ethereum-mainnet.ethereum-nodes:8181
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T16:20:26Z)
+      X-Info-Node:
+      - (ee85b308-5908-4955-a90e-dbd73e559b33 - blb-v2-ethereum-mainnet-5c65678474-wd4g5)
+      X-Trace-Id:
+      - 7215b5114ac7af44f11a1fe98d0e2ee8
+      - 33e641c58395857dc6ca630c17a03ee3
+      content-length:
+      - '28351'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_getTransactionReceipt", "params": ["0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d"],
+      "id": 7}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '148'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":7,"result":{"blockHash":"0x7ab1fd5e82fa0b7fc85c18d9fe7c22f0f4b299cb08e2309877f78525aa6cad09","blockNumber":"0x17d3dbf","contractAddress":null,"cumulativeGasUsed":"0x137502d","effectiveGasPrice":"0xcb49bbf7","from":"0xee933dca1eea67c12102cf8ea3fbf2a16ec536fa","gasUsed":"0x17531","logs":[{"address":"0xb58e61c3098d85632df34eecfb899a1ed80921cb","blockHash":"0x7ab1fd5e82fa0b7fc85c18d9fe7c22f0f4b299cb08e2309877f78525aa6cad09","blockNumber":"0x17d3dbf","blockTimestamp":"0x69f1d783","data":"0x00000000000000000000000000000000000000000000001847b2da4b6ead34d2","logIndex":"0x1a0","removed":false,"topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x000000000000000000000000ee933dca1eea67c12102cf8ea3fbf2a16ec536fa","0x00000000000000000000000053a3036b1b5450071eb404d671c1ad75866b32fa"],"transactionHash":"0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d","transactionIndex":"0x92"},{"address":"0xb58e61c3098d85632df34eecfb899a1ed80921cb","blockHash":"0x7ab1fd5e82fa0b7fc85c18d9fe7c22f0f4b299cb08e2309877f78525aa6cad09","blockNumber":"0x17d3dbf","blockTimestamp":"0x69f1d783","data":"0x0000000000000000000000000000000000000000000000083ef95ac4e3b2cb2e","logIndex":"0x1a1","removed":false,"topics":["0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925","0x000000000000000000000000ee933dca1eea67c12102cf8ea3fbf2a16ec536fa","0x00000000000000000000000053a3036b1b5450071eb404d671c1ad75866b32fa"],"transactionHash":"0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d","transactionIndex":"0x92"},{"address":"0xb58e61c3098d85632df34eecfb899a1ed80921cb","blockHash":"0x7ab1fd5e82fa0b7fc85c18d9fe7c22f0f4b299cb08e2309877f78525aa6cad09","blockNumber":"0x17d3dbf","blockTimestamp":"0x69f1d783","data":"0x00000000000000000000000000000000000000000000000817e648c3cf8f119b","logIndex":"0x1a2","removed":false,"topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x0000000000000000000000001ba26788dfde592fec8bcb0eaff472a42be341b2","0x00000000000000000000000053a3036b1b5450071eb404d671c1ad75866b32fa"],"transactionHash":"0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d","transactionIndex":"0x92"},{"address":"0xb58e61c3098d85632df34eecfb899a1ed80921cb","blockHash":"0x7ab1fd5e82fa0b7fc85c18d9fe7c22f0f4b299cb08e2309877f78525aa6cad09","blockNumber":"0x17d3dbf","blockTimestamp":"0x69f1d783","data":"0x0000000000000000000000000000000000000000000000205f99230f3e3c466d","logIndex":"0x1a3","removed":false,"topics":["0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef","0x00000000000000000000000053a3036b1b5450071eb404d671c1ad75866b32fa","0x0000000000000000000000000000000000000000000000000000000000000000"],"transactionHash":"0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d","transactionIndex":"0x92"},{"address":"0x53a3036b1b5450071eb404d671c1ad75866b32fa","blockHash":"0x7ab1fd5e82fa0b7fc85c18d9fe7c22f0f4b299cb08e2309877f78525aa6cad09","blockNumber":"0x17d3dbf","blockTimestamp":"0x69f1d783","data":"0x0000000000000000000000000000000000000000000000001bc16d674ec8000000000000000000000000000000000000000000000000004de3be8a74510100000000000000000000000000000000000000000000000000000000000000000001","logIndex":"0x1a4","removed":false,"topics":["0x9483a26ad376f30b5199a79e75df3bb05158c4ee32a348f53e83245a5e50c86e"],"transactionHash":"0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d","transactionIndex":"0x92"}],"logsBloom":"0x00000000000000000000000000000000000000000000400001000000000000000000000000000002000000000000000000000000000024000000000000200000000000000000000000000008000080000000000000000000000000000000000000001008020000000000000000000800008000000000000000000010000000000000000000000000000000000000000000000080000000000000000000000000020000001000000000200000080000000000000000000000001000000000000000000002000000000000000000000000000080000000000000000000200020000010000000000000000000100000000000000000000000000020000000000000","status":"0x1","to":"0x53a3036b1b5450071eb404d671c1ad75866b32fa","transactionHash":"0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d","transactionIndex":"0x92","type":"0x2"}}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Chain-Position:
+      - '24985023'
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 19 Aug 2026 18:43:28 GMT
+      Request-Id:
+      - b84eb132-139f-46d8-af98-aa9ddacf4ed3
+      Vary:
+      - Accept-Encoding
+      X-Trace-Id:
+      - 6257171963276faf96e7ea6e0aab7a74
+      content-length:
+      - '4201'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      User-Agent:
+      - rotki/0.1.dev21419+gd9cf71c
+    method: GET
+    uri: https://api.etherscan.io/v2/api?action=txlistinternal&chainid=1&module=account&offset=1000&page=1&sort=asc&txhash=0xc823d13bc153f625537b88ce3e7b6c91e278dfcbb346b68f96035878d5ec9b7d
+  response:
+    body:
+      string: '{"status":"0","message":"No transactions found","result":[]}'
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type
+      Access-Control-Allow-Methods:
+      - GET, POST, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Cache-Control:
+      - private
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 19 Aug 2026 18:43:28 GMT
+      Server:
+      - nginx
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Nginx-Id:
+      - '4'
+      content-length:
+      - '60'
+      svid:
+      - '11'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_call", "params": [{"to": "0xB58E61C3098d85632Df34EecfB899A1Ed80921cB",
+      "data": "0xaa5dd7f100000000000000000000000053a3036b1b5450071eb404d671c1ad75866b32fa"},
+      "0x17d3dbf"], "id": 8}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '214'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":8,"result":"0x000000000000000000000000de12b620a8a714476a97efd14e6f7180ca653557"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 19 Aug 2026 18:43:29 GMT
+      Vary:
+      - accept-encoding
+      - origin, access-control-request-method, access-control-request-headers
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T17:17:19Z)
+      X-Info-Node:
+      - (6680df63-e588-4327-aa69-046440f6712b - blb-v2-ethereum-mainnet-5c65678474-vt55v)
+      X-Trace-Id:
+      - 6f3c8d404590d01b3503eb4a3c9ffdef
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_call", "params": [{"to": "0x53A3036B1b5450071eB404d671c1AD75866b32fa",
+      "data": "0xd8dfeb45"}, "0x17d3dbf"], "id": 9}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '150'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":9,"result":"0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 19 Aug 2026 18:43:30 GMT
+      Vary:
+      - accept-encoding
+      - origin, access-control-request-method, access-control-request-headers
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T17:05:39Z)
+      X-Info-Node:
+      - (f7ee06c8-47f2-4e9a-a417-6475f9b2f001 - blb-v2-ethereum-mainnet-5c65678474-ss5nz)
+      X-Trace-Id:
+      - 2c7cbfd3de5480d27ca66f460c8a7ca9
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_call", "params": [{"to": "0x53A3036B1b5450071eB404d671c1AD75866b32fa",
+      "data": "0xbabe7c74"}, "0x17d3dbf"], "id": 10}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '151'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":10,"result":"0x0000000000000000000000000000000000000000000000001bc16d674ec80000"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '103'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 19 Aug 2026 18:43:31 GMT
+      Vary:
+      - accept-encoding
+      - origin, access-control-request-method, access-control-request-headers
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T16:20:26Z)
+      X-Info-Node:
+      - (ee85b308-5908-4955-a90e-dbd73e559b33 - blb-v2-ethereum-mainnet-5c65678474-wd4g5)
+      X-Trace-Id:
+      - d4a6d6153dd5baa1a97b22a7fd2e6e42
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_call", "params": [{"to": "0x53A3036B1b5450071eB404d671c1AD75866b32fa",
+      "data": "0x3a7c29fb"}, "0x17d3dbf"], "id": 11}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '151'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":11,"result":"0x000000000000000000000000000000000000000000000000000000000003d090"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '103'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 19 Aug 2026 18:43:33 GMT
+      Vary:
+      - accept-encoding
+      - origin, access-control-request-method, access-control-request-headers
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T16:20:26Z)
+      X-Info-Node:
+      - (ee85b308-5908-4955-a90e-dbd73e559b33 - blb-v2-ethereum-mainnet-5c65678474-wd4g5)
+      X-Trace-Id:
+      - 28e64f3c89e5e637ee8c558d92dc0199
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_call", "params": [{"to": "0x53A3036B1b5450071eB404d671c1AD75866b32fa",
+      "data": "0x8da5cb5b"}, "0x17d3dbf"], "id": 12}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '151'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":12,"result":"0x000000000000000000000000ee933dca1eea67c12102cf8ea3fbf2a16ec536fa"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '103'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 19 Aug 2026 18:43:34 GMT
+      Vary:
+      - accept-encoding
+      - origin, access-control-request-method, access-control-request-headers
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T17:17:19Z)
+      X-Info-Node:
+      - (6680df63-e588-4327-aa69-046440f6712b - blb-v2-ethereum-mainnet-5c65678474-vt55v)
+      X-Trace-Id:
+      - 1488fab2bd60535e6eea31f341210f5d
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"jsonrpc": "2.0", "method": "eth_call", "params": [{"to": "0x53A3036B1b5450071eB404d671c1AD75866b32fa",
+      "data": "0xc2b6b58c"}, "0x17d3dbf"], "id": 13}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, zstd
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '151'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
+    method: POST
+    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
+  response:
+    body:
+      string: '{"jsonrpc":"2.0","id":13,"result":"0x0000000000000000000000000000000000000000000000000000000000000000"}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '103'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 19 Aug 2026 18:43:35 GMT
+      Vary:
+      - accept-encoding
+      - origin, access-control-request-method, access-control-request-headers
+      X-Info-Build:
+      - 3.68.0 (2026-08-19T17:17:19Z)
+      X-Info-Node:
+      - (6680df63-e588-4327-aa69-046440f6712b - blb-v2-ethereum-mainnet-5c65678474-vt55v)
+      X-Trace-Id:
+      - 87280794e218ed5b38f9f89b58f13978
+    status:
+      code: 200
+      message: OK
+version: 1
