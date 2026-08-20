@@ -30,15 +30,15 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 19 Aug 2026 18:44:09 GMT
+      - Thu, 20 Aug 2026 07:03:38 GMT
       Vary:
       - Origin
       X-Info-Build:
-      - 3.68.0 (2026-08-19T17:05:39Z)
+      - 3.68.0 (2026-08-19T19:41:33Z)
       X-Info-Node:
-      - (f7ee06c8-47f2-4e9a-a417-6475f9b2f001 - blb-v2-ethereum-mainnet-5c65678474-ss5nz)
+      - (60ea125f-3a08-44b0-80b4-ed249ee5ab59 - blb-v2-ethereum-mainnet-75f5644b78-6wkhb)
       X-Trace-Id:
-      - 61114e4c65f996888d1a15a1441e961b
+      - bb3603df6a9a030c41e8c8e6c505745b
     status:
       code: 200
       message: OK
@@ -72,7 +72,7 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 19 Aug 2026 18:44:10 GMT
+      - Thu, 20 Aug 2026 07:03:39 GMT
       Vary:
       - Accept-Encoding
     status:
@@ -97,14 +97,14 @@ interactions:
     uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
   response:
     body:
-      string: '{"jsonrpc":"2.0","id":2,"result":"0x1898a32"}'
+      string: '{"jsonrpc":"2.0","id":2,"result":"0x189989a"}'
     headers:
       Access-Control-Allow-Origin:
       - '*'
       Chain-Latest-Position:
-      - '25791026'
+      - '25794714'
       Chain-Position:
-      - '25791026'
+      - '25794714'
       Connection:
       - keep-alive
       Content-Length:
@@ -112,13 +112,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 19 Aug 2026 18:44:10 GMT
+      - Thu, 20 Aug 2026 07:03:40 GMT
       Request-Id:
-      - 5c79694a-c804-427c-9543-5a1f16993b49
+      - f83973a0-bcfd-4cff-83f8-acc834437a93
       Vary:
       - Accept-Encoding
       X-Trace-Id:
-      - 43ce4101365a7c268899daa5e485c447
+      - b51311729837bd69fd81905123f2ae0d
     status:
       code: 200
       message: OK
@@ -153,16 +153,16 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 19 Aug 2026 18:44:11 GMT
+      - Thu, 20 Aug 2026 07:03:41 GMT
       Vary:
       - accept-encoding
       - origin, access-control-request-method, access-control-request-headers
       X-Info-Build:
-      - 3.68.0 (2026-08-19T17:17:19Z)
+      - 3.68.0 (2026-08-19T19:41:35Z)
       X-Info-Node:
-      - (6680df63-e588-4327-aa69-046440f6712b - blb-v2-ethereum-mainnet-5c65678474-vt55v)
+      - (98c0383c-bda7-4b51-9a85-64dfb7d5d0e0 - blb-v2-ethereum-mainnet-75f5644b78-kwcs2)
       X-Trace-Id:
-      - f5f18f174dfc2d59bc849ec1b5fef28f
+      - 994af3a37c50ae81ab1d11249ed2058d
     status:
       code: 200
       message: OK
@@ -191,7 +191,7 @@ interactions:
       Access-Control-Allow-Origin:
       - '*'
       Chain-Latest-Position:
-      - '25791026'
+      - '25794714'
       Chain-Position:
       - '46147'
       Connection:
@@ -201,20 +201,20 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 19 Aug 2026 18:44:12 GMT
+      - Thu, 20 Aug 2026 07:03:42 GMT
       Request-Id:
-      - d85354f3-c5b1-417b-a78a-f12770dbbc02
+      - 90122ec7-6c93-40a8-9a22-9b45a3b7fa96
       Vary:
       - Origin
       Via:
       - JSON-RPC/2.0 blb-v2-ethereum-mainnet.ethereum-nodes:8181
       X-Info-Build:
-      - 3.68.0 (2026-08-19T16:20:26Z)
+      - 3.68.0 (2026-08-19T19:41:33Z)
       X-Info-Node:
-      - (ee85b308-5908-4955-a90e-dbd73e559b33 - blb-v2-ethereum-mainnet-5c65678474-wd4g5)
+      - (147dc8f8-83d2-4b10-9a52-cf103d4c3907 - blb-v2-ethereum-mainnet-75f5644b78-vltnh)
       X-Trace-Id:
-      - 133072356e30f1153e835168f92b6d2e
-      - 33a430cc36b7382321b38219120a240f
+      - 5def6ebcbcc2e9dec96e58239134d6fa
+      - b3a5313f7235ff016924e8db8b099829
     status:
       code: 200
       message: OK
@@ -243,7 +243,7 @@ interactions:
       Access-Control-Allow-Origin:
       - '*'
       Chain-Latest-Position:
-      - '25791027'
+      - '25794714'
       Chain-Position:
       - '25276988'
       Connection:
@@ -253,20 +253,20 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 19 Aug 2026 18:44:13 GMT
+      - Thu, 20 Aug 2026 07:03:43 GMT
       Request-Id:
-      - 2e4ce7a6-a038-4714-baed-a5a2141b72a7
+      - 3c1b5193-9222-4e15-94db-dc9c9761b13d
       Vary:
       - Origin
       Via:
       - JSON-RPC/2.0 blb-v2-ethereum-mainnet.ethereum-nodes:8181
       X-Info-Build:
-      - 3.68.0 (2026-08-19T16:20:26Z)
+      - 3.68.0 (2026-08-19T19:41:33Z)
       X-Info-Node:
-      - (ee85b308-5908-4955-a90e-dbd73e559b33 - blb-v2-ethereum-mainnet-5c65678474-wd4g5)
+      - (147dc8f8-83d2-4b10-9a52-cf103d4c3907 - blb-v2-ethereum-mainnet-75f5644b78-vltnh)
       X-Trace-Id:
-      - 06f2b7c8971c47bed5f71fdcaed04332
-      - 4c678a6f54a5fa14d74732869bec288c
+      - 7841cf0f612e5922101bd0359c9d10e1
+      - c5b74ac9c9ede659f4f5aa8d89430a05
     status:
       code: 200
       message: OK
@@ -295,7 +295,7 @@ interactions:
       Access-Control-Allow-Origin:
       - '*'
       Chain-Latest-Position:
-      - '25791027'
+      - '25794714'
       Chain-Position:
       - '25276988'
       Connection:
@@ -303,9 +303,9 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 19 Aug 2026 18:44:15 GMT
+      - Thu, 20 Aug 2026 07:03:44 GMT
       Request-Id:
-      - d07077ef-642a-4469-92b3-ba34441ea6b8
+      - dcdaafa5-76e4-48b5-b33e-51323f900a2c
       Transfer-Encoding:
       - chunked
       Vary:
@@ -313,12 +313,12 @@ interactions:
       Via:
       - JSON-RPC/2.0 blb-v2-ethereum-mainnet.ethereum-nodes:8181
       X-Info-Build:
-      - 3.68.0 (2026-08-19T17:17:19Z)
+      - 3.68.0 (2026-08-19T19:41:35Z)
       X-Info-Node:
-      - (6680df63-e588-4327-aa69-046440f6712b - blb-v2-ethereum-mainnet-5c65678474-vt55v)
+      - (98c0383c-bda7-4b51-9a85-64dfb7d5d0e0 - blb-v2-ethereum-mainnet-75f5644b78-kwcs2)
       X-Trace-Id:
-      - e4d7ec1fc896e26e52047005850a3340
-      - 1f48025aa85dfd52ea414500585fe95d
+      - 32a1ce8fa1f39099ea4401aa6fd70bad
+      - 03bd4e95740b845e49f36688c289674a
       content-length:
       - '20428'
     status:
@@ -355,13 +355,13 @@ interactions:
       Content-Type:
       - application/json
       Date:
-      - Wed, 19 Aug 2026 18:44:16 GMT
+      - Thu, 20 Aug 2026 07:03:45 GMT
       Request-Id:
-      - 43513a56-b0ab-459b-86aa-ea966d27d2e7
+      - 425c84c4-e375-4031-be0b-b62cde559cd3
       Vary:
       - Accept-Encoding
       X-Trace-Id:
-      - 532daeeed76effe0262255a27ab08f68
+      - 94411b1dbf2a70b8d713674d2aa04e9d
       content-length:
       - '3559'
     status:
@@ -397,7 +397,7 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 19 Aug 2026 18:44:16 GMT
+      - Thu, 20 Aug 2026 07:03:46 GMT
       Server:
       - nginx
       Vary:
@@ -445,16 +445,16 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 19 Aug 2026 18:44:17 GMT
+      - Thu, 20 Aug 2026 07:03:46 GMT
       Vary:
       - accept-encoding
       - origin, access-control-request-method, access-control-request-headers
       X-Info-Build:
-      - 3.68.0 (2026-08-19T16:20:26Z)
+      - 3.68.0 (2026-08-19T19:41:33Z)
       X-Info-Node:
-      - (ee85b308-5908-4955-a90e-dbd73e559b33 - blb-v2-ethereum-mainnet-5c65678474-wd4g5)
+      - (60ea125f-3a08-44b0-80b4-ed249ee5ab59 - blb-v2-ethereum-mainnet-75f5644b78-6wkhb)
       X-Trace-Id:
-      - d67ec05423c4d6313fc2f77b6f28d54a
+      - 9f76ec7dd976f79f0f06c404a1b48c15
     status:
       code: 200
       message: OK
@@ -489,22 +489,22 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 19 Aug 2026 18:44:18 GMT
+      - Thu, 20 Aug 2026 07:03:47 GMT
       Vary:
       - accept-encoding
       - origin, access-control-request-method, access-control-request-headers
       X-Info-Build:
-      - 3.68.0 (2026-08-19T16:20:26Z)
+      - 3.68.0 (2026-08-19T19:41:33Z)
       X-Info-Node:
-      - (ee85b308-5908-4955-a90e-dbd73e559b33 - blb-v2-ethereum-mainnet-5c65678474-wd4g5)
+      - (60ea125f-3a08-44b0-80b4-ed249ee5ab59 - blb-v2-ethereum-mainnet-75f5644b78-6wkhb)
       X-Trace-Id:
-      - a4b12b9e1d24d662c58c8eede3cd47c6
+      - dc0290c2f8f4ec47d12713ea164583a3
     status:
       code: 200
       message: OK
 - request:
     body: '{"jsonrpc": "2.0", "method": "eth_call", "params": [{"to": "0xfcB79607898ced18925c76C01921681A15618243",
-      "data": "0xbabe7c74"}, "0x181b23c"], "id": 10}'
+      "data": "0x8da5cb5b"}, "0x181b23c"], "id": 10}'
     headers:
       Accept:
       - '*/*'
@@ -522,7 +522,7 @@ interactions:
     uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
   response:
     body:
-      string: '{"jsonrpc":"2.0","id":10,"result":"0x0000000000000000000000000000000000000000000000001bc16d674ec80000"}'
+      string: '{"jsonrpc":"2.0","id":10,"result":"0x000000000000000000000000661691ef5249745b1b7e61faed5c73f5629e7945"}'
     headers:
       Access-Control-Allow-Origin:
       - '*'
@@ -533,148 +533,16 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 19 Aug 2026 18:44:19 GMT
+      - Thu, 20 Aug 2026 07:03:48 GMT
       Vary:
       - accept-encoding
       - origin, access-control-request-method, access-control-request-headers
       X-Info-Build:
-      - 3.68.0 (2026-08-19T16:20:26Z)
+      - 3.68.0 (2026-08-19T19:41:33Z)
       X-Info-Node:
-      - (ee85b308-5908-4955-a90e-dbd73e559b33 - blb-v2-ethereum-mainnet-5c65678474-wd4g5)
+      - (60ea125f-3a08-44b0-80b4-ed249ee5ab59 - blb-v2-ethereum-mainnet-75f5644b78-6wkhb)
       X-Trace-Id:
-      - e2d0c655d5ae7d946699035f810c199b
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"jsonrpc": "2.0", "method": "eth_call", "params": [{"to": "0xfcB79607898ced18925c76C01921681A15618243",
-      "data": "0x3a7c29fb"}, "0x181b23c"], "id": 11}'
-    headers:
-      Accept:
-      - '*/*'
-      Accept-Encoding:
-      - gzip, deflate, zstd
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '151'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
-    method: POST
-    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
-  response:
-    body:
-      string: '{"jsonrpc":"2.0","id":11,"result":"0x000000000000000000000000000000000000000000000000000000000003d090"}'
-    headers:
-      Access-Control-Allow-Origin:
-      - '*'
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '103'
-      Content-Type:
-      - application/json; charset=utf-8
-      Date:
-      - Wed, 19 Aug 2026 18:44:20 GMT
-      Vary:
-      - accept-encoding
-      - origin, access-control-request-method, access-control-request-headers
-      X-Info-Build:
-      - 3.68.0 (2026-08-19T17:17:19Z)
-      X-Info-Node:
-      - (6680df63-e588-4327-aa69-046440f6712b - blb-v2-ethereum-mainnet-5c65678474-vt55v)
-      X-Trace-Id:
-      - 240681d4cdf5f5d783966e405fdbf6aa
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"jsonrpc": "2.0", "method": "eth_call", "params": [{"to": "0xfcB79607898ced18925c76C01921681A15618243",
-      "data": "0x8da5cb5b"}, "0x181b23c"], "id": 12}'
-    headers:
-      Accept:
-      - '*/*'
-      Accept-Encoding:
-      - gzip, deflate, zstd
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '151'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
-    method: POST
-    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
-  response:
-    body:
-      string: '{"jsonrpc":"2.0","id":12,"result":"0x000000000000000000000000661691ef5249745b1b7e61faed5c73f5629e7945"}'
-    headers:
-      Access-Control-Allow-Origin:
-      - '*'
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '103'
-      Content-Type:
-      - application/json; charset=utf-8
-      Date:
-      - Wed, 19 Aug 2026 18:44:21 GMT
-      Vary:
-      - accept-encoding
-      - origin, access-control-request-method, access-control-request-headers
-      X-Info-Build:
-      - 3.68.0 (2026-08-19T16:20:26Z)
-      X-Info-Node:
-      - (ee85b308-5908-4955-a90e-dbd73e559b33 - blb-v2-ethereum-mainnet-5c65678474-wd4g5)
-      X-Trace-Id:
-      - fe386020c2a57d9be8e7224226ff9127
-    status:
-      code: 200
-      message: OK
-- request:
-    body: '{"jsonrpc": "2.0", "method": "eth_call", "params": [{"to": "0xfcB79607898ced18925c76C01921681A15618243",
-      "data": "0xc2b6b58c"}, "0x181b23c"], "id": 13}'
-    headers:
-      Accept:
-      - '*/*'
-      Accept-Encoding:
-      - gzip, deflate, zstd
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '151'
-      Content-Type:
-      - application/json
-      User-Agent:
-      - web3.py/7.16.0/web3.providers.rpc.rpc.HTTPProvider
-    method: POST
-    uri: https://mainnet.infura.io/v3/a6b269b6e5ad44ed943e9fff244dfe25
-  response:
-    body:
-      string: '{"jsonrpc":"2.0","id":13,"result":"0x0000000000000000000000000000000000000000000000000000000000000001"}'
-    headers:
-      Access-Control-Allow-Origin:
-      - '*'
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '103'
-      Content-Type:
-      - application/json; charset=utf-8
-      Date:
-      - Wed, 19 Aug 2026 18:44:22 GMT
-      Vary:
-      - accept-encoding
-      - origin, access-control-request-method, access-control-request-headers
-      X-Info-Build:
-      - 3.68.0 (2026-08-19T17:17:19Z)
-      X-Info-Node:
-      - (6680df63-e588-4327-aa69-046440f6712b - blb-v2-ethereum-mainnet-5c65678474-vt55v)
-      X-Trace-Id:
-      - 37f4a51f688a1d8909928d3c4ae7737f
+      - bdd82d33ed133a721f8b65cf0a2d9b88
     status:
       code: 200
       message: OK
